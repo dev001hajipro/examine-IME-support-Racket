@@ -43,13 +43,24 @@ NativeLibraryについて調べます。
 
 [native-library-and-dll.md](native-library-and-dll.md)
 
+## pango,cairoのためMSYS2 MinGW 64-bitでGtk+3.0の開発環境構築
+
+[公式サイト](https://www.gtk.org/download/windows.php)の通りでインストールできます。
+
+GTK+と各種インストールをしたらpangocairoもインストールされました。
+
+```bash
+$ pkg-config --cflags pangocairo
+-mms-bitfields -IC:/msys64/mingw64/include/pango-1.0 -IC:/msys64/mingw64/include/fribidi -IC:/msys64/mingw64/include/cairo -IC:/msys64/mingw64/include -IC:/msys64/mingw64/lib/libffi-3.2.1/include -IC:/msys64/mingw64/include/pixman-1 -IC:/msys64/mingw64/include -IC:/msys64/mingw64/include/freetype2 -IC:/msys64/mingw64/include -IC:/msys64/mingw64/include/harfbuzz -IC:/msys64/mingw64/include/glib-2.0 -IC:/msys64/mingw64/lib/glib-2.0/include -IC:/msys64/mingw64/include -IC:/msys64/mingw64/include/libpng16 -IC:/msys64/mingw64/include
+```
+
 ## gtk3.0とpango のサンプル実装
 
 Pangoはテキストレイアウトとレンダリングのライブラリーで、多言語の同時表示などに対応しています。
 
 - [hello_gtk.c](hello_gtk.c) は、GTK+3.0のHelloworld
 - [gtk3_0_with_pango.c](gtk3_0_with_pango.c) は、Pangoでテキストを用意してGTK+3.0上で表示
-
+- <https://github.com/dev001hajipro/cairo_graphics_tutorial> は、cairo/pangoとGTK+3.0をC言語で試したプロジェクト。
 
 
 ## TODO
