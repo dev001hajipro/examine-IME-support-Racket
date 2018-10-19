@@ -77,6 +77,13 @@ text% を公式ドキュメントで調べると、<https://docs.racket-lang.org
 
 [racket-history.md](racket-history.md)
 
+## 
+[Framework: Racket GUI Application Framework](https://docs.racket-lang.org/framework/index.html) も
+guiパッケージのgui/gui-lib/frameworkに含まれます。
+
+[MrLib: Extra GUI Libraries](https://docs.racket-lang.org/mrlib/index.html?q=mrlib)は、guiパッケージのgui/gui-lib/mrlibに含まれます。
+
+
 ### 参考資料
 
 - https://stackoverflow.com/questions/41492532/undo-a-raco-pkg-update-clone-or-raco-pkg-install-clone
