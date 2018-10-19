@@ -23,13 +23,13 @@ examine IME support in the Racket onto Windows
 
 Racket本体のビルドとmain-distributionのDrRacketのビルド方法
 
-<BuildRacketWindows10.md>
+[BuildRacketWindows10.md](BuildRacketWindows10.md)
 
 ## ビルドエラー時に調べたracketとracoの各種オプション
 
 `-l-`の意味などもここで説明しています。
 
-<memo-raco-command.md>
+[memo-raco-command.md](memo-raco-command.md)
 
 ## Native LibraryとDLLを調査
 
@@ -41,7 +41,7 @@ NativeLibraryについて調べます。
 (message-box "hello" "test messagebox" #f '(ok))
 ```
 
-<native-library-and-dll.md>
+[native-library-and-dll.md](native-library-and-dll.md)
 
 ## gtk3.0とpango のサンプル実装
 
