@@ -28,9 +28,15 @@ Pangoはテキストレイアウトとレンダリングのライブラリーで
 
 ## Racketをソースコードからビルド
 
+Racket本体のビルドとmain-distributionのDrRacketのビルド方法
+
 [BuildRacketWindows10.md](BuildRacketWindows10.md)
 
+## ビルドエラー時に調べたracketとracoの各種オプション
+
+`-l-`の意味などもここで説明しています。
+
+[memo-raco-command.md](memo-raco-command.md)
 
 ## TODO
 - 入力補完候補ダイアログの正式名称。composite???
-
