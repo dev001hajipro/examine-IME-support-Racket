@@ -62,6 +62,11 @@ Pangoはテキストレイアウトとレンダリングのライブラリーで
 - [gtk3_0_with_pango.c](gtk3_0_with_pango.c) は、Pangoでテキストを用意してGTK+3.0上で表示
 - <https://github.com/dev001hajipro/cairo_graphics_tutorial> は、cairo/pangoとGTK+3.0をC言語で試したプロジェクト。
 
+### 参考資料
+
+- https://stackoverflow.com/questions/41492532/undo-a-raco-pkg-update-clone-or-raco-pkg-install-clone
+- [Tutorial: Creating a Package](http://blog.racket-lang.org/2017/10/tutorial-creating-a-package.html)
+- [Tutorial: Contributing to Racket](http://blog.racket-lang.org/2017/09/tutorial-contributing-to-racket.html)
 
 ## TODO
 - 入力補完候補ダイアログの正式名称。composite???
