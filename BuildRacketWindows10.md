@@ -105,31 +105,6 @@ User-specific for installation "development":
 ```
  raco setup drracket
 ```
-
-## racoコマンドのメモ
-
-```powershell
-racket\racket
-
- -G racket/etc コンフィグの指定
- -X racket/collects メインのcollectsディレクトリー指定
- -N raco run-fileの設定
- -l- `-l --`と同じ意味
- これでracoコマンドの呼び出しになる
- raco pkg install
-		--no-setup この後 raco setupを実行しない
-		--pkgs 指定のみインストールを行う行う
-		--skip-installed　インストール済みなら<pkg-source>をスキップ
-		--scope installation OSのすべてのユーザー向けインストール
-		--deps search-auto 問い合わせずに依存関係を探す
-		main-distribution main-distribution-test
- 
- 
- 
- 
- ■racoコマンドのヘルプ表示
- racket\racket -G racket/etc -X racket/collects -N raco -l- raco pkg install --help
- ```
  
 ### Native LibraryとDLL
 
