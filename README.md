@@ -72,6 +72,10 @@ text% を公式ドキュメントで調べると、<https://docs.racket-lang.org
 
 [build-gui-package-for-text.md](build-gui-package-for-text.md)
 
+## GRacket.exeとRacket.exeの違い
+<https://docs.racket-lang.org/reference/running-sa.html>
+
+Racket.exeはコンソール版、GRacketはGUIで起動するコンソールREPL。DrRacket.exeはIDE。
 
 ## 名称や歴史を調査
 
