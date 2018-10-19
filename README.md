@@ -73,6 +73,10 @@ text% を公式ドキュメントで調べると、<https://docs.racket-lang.org
 [build-gui-package-for-text.md](build-gui-package-for-text.md)
 
 
+## 名称や歴史を調査
+
+[racket-history.md](racket-history.md)
+
 ### 参考資料
 
 - https://stackoverflow.com/questions/41492532/undo-a-raco-pkg-update-clone-or-raco-pkg-install-clone
